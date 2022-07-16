@@ -9,11 +9,11 @@ public class Higiene extends Produtos {
     String recomendacaoUso;
 
 
-    void setVencimento(String dataVencimento) {
+    public void setVencimento(String dataVencimento) {
         this.dataVencimento = dataVencimento;
     }
     
-    void setRecomendacao(String recomendacaoUso) {
+    public void setRecomendacao(String recomendacaoUso) {
         this.recomendacaoUso = recomendacaoUso;
     }
     
@@ -31,11 +31,11 @@ public class Higiene extends Produtos {
         setRecomendacao(recomendacaoUso);
     }
 
-    String getVencimento() {
+    public String getVencimento() {
         return this.dataVencimento;
     }
 
-    String getRecomendacao() {
+    public String getRecomendacao() {
         return this.recomendacaoUso;
     }
 

@@ -29,11 +29,11 @@ public class Alimenticios extends Produtos {
         setPreparacao(dataPreparacao);
     }
 
-    String getVencimento() {
+    public String getVencimento() {
         return this.dataVencimento;
     }
 
-    String getPreparacao() {
+    public String getPreparacao() {
         return this.dataPreparacao;
     }
 
