@@ -9,4 +9,4 @@ Fillipe Martins de Moraes
 
 ## Como rodar o projeto
 
-#### Rode o projeto pelo arquivo Painel.java
+#### Rode o projeto pelo arquivo Mercado/src/Painel.java
