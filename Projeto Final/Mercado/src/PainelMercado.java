@@ -521,7 +521,7 @@ public class PainelMercado extends javax.swing.JFrame {
         int vendasMercado = mercadoAtual.getVendas();
         float faturamentoMercado = mercadoAtual.getFat();
         
-        String mensagemFinal = nomeMercado+" localizado em "+localMercado+"\nTeve "+vendasMercado+" vendas e um faturamento de "+faturamentoMercado;
+        String mensagemFinal = nomeMercado+" localizado em "+localMercado+"\nTeve "+vendasMercado+" vendas e um faturamento de R$ "+faturamentoMercado;
         
         JOptionPane.showMessageDialog(null, mensagemFinal);
         
