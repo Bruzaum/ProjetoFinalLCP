@@ -54,7 +54,7 @@ public class Usuario {
         
         Usuario usuario1 = new Usuario(1, "Homer", 1100.98, "/assets/homer.jpg");
         Usuario usuario2 = new Usuario(2, "Shrek", 150.98, "/assets/shrek.jpg");
-        Usuario usuario3 = new Usuario(3, "Monica", 98.00, "/assets/monica.jpg");
+        Usuario usuario3 = new Usuario(3, "Monica", 9800.00, "/assets/monica.jpg");
 
         usuarios.add(usuario1);
         usuarios.add(usuario2);
